@@ -1,7 +1,11 @@
-// file: /components/SubmitButton.js
-const SubmitButton = ({ onClick }) => {
+const SubmitButton = ({ onClick, disabled }) => {
   return (
-    <button type="submit" className="submit-button" onClick={onClick}>
+    <button
+      type="button"
+      className="submit-button"
+      onClick={onClick}
+      disabled={disabled}
+    >
       Submit
     </button>
   );

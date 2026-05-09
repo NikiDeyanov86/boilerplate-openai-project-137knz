@@ -41,3 +41,65 @@ body {
   margin-top: 1rem;
   padding: 0.5rem;
 }
+
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+
+.image-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.image-row img {
+  width: 25%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.expand-btn {
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+.car-details {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+/* Top centered disclaimer banner */
+.disclaimer {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 12px;
+  color: #666;
+
+  background: rgba(255, 255, 255, 0.85);
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  border: 1px solid #e5e5e5;
+
+  backdrop-filter: blur(8px);
+
+  z-index: 9999;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
